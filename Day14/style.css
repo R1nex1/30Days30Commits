@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --fs-h1: 7rem;
+    --fs-p: 1.2rem;
+
+    --fw-mid: 500;
+
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-pink: #f0beed;
+
+    --transition: all 350ms ease;
+
+    --border-radius-1: 1rem;
+}
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background: var(--clr-pink);
+}
+
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 215px);
+    padding: 25px;
+    gap: 25px;
+}
+
+.note{
+    height: 215px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: var(--border-radius-1);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    resize: none;
+    font-size: var(--fs-p);
+}
+
+.add-note{
+    height: 215px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius-1);
+    font-size: var(--fs-h1);
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    transition: var(--transition);
+}
+
+.add-note:hover{
+    background: rgba(0, 0, 0, 0.2);
+}

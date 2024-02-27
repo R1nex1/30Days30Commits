@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+:root {
+    --fw-reg: 300;
+    --fw-mid: 500;
+    --fw-bold: 700;
+
+    --fs-h1: 3.5rem;
+    --fs-body: 2.5rem;
+    --fs-small: 1.5rem;
+
+    --clr-light: #ffffff;
+    --clr-dark-br: #a57331;
+    --clr-grey: #676666;
+    --clr-black: #141414;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/coffee.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: var(--clr-light);
+}
+
+.content h1 {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-mid);
+}
+
+.content h1 span {
+    color: var(--clr-dark-br);
+}
+
+.content button {
+    background: transparent;
+    border: 2px solid var(--clr-light);
+    outline: none;
+    padding: 12px 25px;
+    color: var(--clr-light);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.content button img {
+    width: 15px;
+    margin-left: 8px;
+}
+
+.content button:hover {
+    background-color: var(--clr-grey);
+    font-size: var(--fs-small);
+}
+
+.launch-time {
+    display: flex;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+}
+
+.launch-time div p {
+    font-size: var(--fs-body);
+}

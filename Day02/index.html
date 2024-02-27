@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kaspar's Personal Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css" integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Kanit:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body> 
+        <header>
+            <div class="logo">
+                <img src="img\K-logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <!-- Navbar -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about-me" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Kaspar Šanin</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Self-Taught Dev</p>
+            <img src="img\Portree.png" alt="a picture of Kaspar Šanin smiling" class="intro__img">
+        </section>
+
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>When it comes to design and development, I find myself immersed in a dynamic world where creativity meets functionality. Through a blend of innovative design thinking and meticulous coding, I am able to craft digital experiences that seamlessly merge aesthetic appeal with user-friendly functionality. This process allows me to not only envision captivating visual designs but also to bring them to life through robust and efficient development strategies. Each project becomes an exciting journey of problem-solving and innovation, where every line of code and every pixel serves a purpose in creating impactful and intuitive digital solutions.</p>
+                </div> <!-- /service -->
+
+                <div class="service">
+                    <h3>Prompt Engineering</h3>
+                    <p>When it comes to prompt engineering for AI tools, I like crafting precise and effective instructions that serve as the backbone for seamless and intelligent interactions. By delving into the intricacies of language and AI capabilities, I design prompts that enable smooth communication between users and the AI system. It's all about understanding the nuances of both human language and machine learning, ensuring that the prompts not only elicit the desired responses but also facilitate intuitive and natural interactions. </p>
+                </div> <!-- /service -->
+
+                <div class="service">
+                    <h3>Web Dev</h3>
+                    <p>Custom bespoke webpages with HTML, CSS and JS. The classic trio. </p>
+                </div> <!-- /service -->
+            </div>  <!-- /services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+        <!-- About me -->
+        <section class="about-me" id="about-me">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Self-Taught Developer based out of Tartu</p>
+
+            <div class="about-me__body">
+                <p>I'm a 25-year-old from Estonia on my way to becoming a full stack developer. Recently, I made a bold decision to switch gears in my career. After spending five and a half years as a prison guard, I realized my passion lies in the dynamic world of coding. My interest in tech lead me to pursue avenues like freeCodeCamp and CS50P.</p>
+                <p>I've completed a web development course on freeCodeCamp and a python course at CS50P. These courses taught me the basics of HTML, CSS, JavaScript and Python. This webpage itself stands as a testament to my comprehension of HTML and CSS, showcasing my ability to construct visually appealing digital content. Currently I am engaged with the main CS50 course.</p>
+            </div>
+
+            <img src="img\cat-dad.png" alt="Kaspar Šanin with cats" class="about-me__img">
+        </section>
+
+
+        <!-- Portfolio -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item-personal-template.html" class="portfolio__item item_1">
+                    <img src="img\trainer_square.png" alt="Personal Trainer webpage template" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item_webpage.html" class="portfolio__item">
+                    <img src="img\Emperor's_Might.png" alt="Emperor's Might webpage" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item_art.html" class="portfolio__item">
+                    <img src="img\work3.png" alt="Cat Girl" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto::kaspar.shanin@gmail.com" class="footer__link">kaspar.shanin@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/kaspar.sanin/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/R1nex1"><i class="fa-brands fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/kaspar-%C5%A1anin-3497622b4/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+
+
+
+        <script src="js\index.js"></script>
+        
+    </body>
+</html>

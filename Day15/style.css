@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --fs-h1: 2.2rem;
+    --fs-p: 1.5rem;
+
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-gray: #bcb8b8;
+    --clr-blue: #15126e;
+    --clr-l-blue: #425096;
+    --clr-m-blue: #233897;
+    --clr-pink: #b03fb4;
+
+    --transition: all 350ms ease;
+
+    --border-radius-1: 1rem;
+    --border-radius-2: 0.75rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background: linear-gradient(140deg, var(--clr-pink),var(--clr-blue));
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.display {
+    border: 1px solid var(--clr-black);
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    background: var(--clr-l-blue);
+    font-size: var(--fs-h1);
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius-1);
+    color: var(--clr-gray);
+    overflow-wrap: break-word;
+}
+
+.generate{
+    width: 500px;
+    color: var(--clr-gray);
+    height: 60px;
+    cursor: pointer;
+    background: var(--clr-l-blue);
+    transition: var(--transition);
+    border: none;
+    border-radius: var(--border-radius-2);
+    font-size: var(--fs-p);
+}
+
+.generate:hover{
+    background: var(--clr-m-blue);
+}

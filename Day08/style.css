@@ -1,0 +1,144 @@
+:root {
+    --fw-reg: 250;
+    --fw-mid: 500;
+    --fw-bold: 850;
+
+    --fs-h1: 3.5rem;
+    --fs-body: 2rem;
+
+    --clr-light: #ffffff;
+    --clr-dark-b: #12174B;
+    --clr-accent-b: #2c3c97;
+    --clr-dark-r: #670000;
+    --clr-accent-r: #930000;
+    --clr-grey: #676666;
+    --clr-black: #141414;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--clr-black);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--bg-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    user-select: none;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h1);
+    color: var(--clr-light);
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-mid);
+    color: var(--clr-light);
+    padding: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+
+.actions button {
+    padding: 10px 18px;
+    margin: 5px;
+    font-size: var(--fs-body);
+    border-radius: 12px;
+    color: var(--clr-light);
+    transition: .5s;
+}
+
+.restart {
+    background-color: var(--clr-dark-g);
+}
+
+.restart:hover {
+    background-color: var(--clr-accent-g);
+}
+
+.loyalist:hover {
+    background-color: var(--clr-accent-b);
+}
+
+.loyalist {
+    background-color: var(--clr-dark-b);
+}
+
+.traitor {
+    background-color: var(--clr-dark-r);
+}
+
+.traitor:hover {
+    background-color: var(--clr-accent-r);
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(2, calc(150px / 2 * 3));
+}
+
+.card {
+    height: calc(150px / 2 * 3);
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--clr-black);
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all .5s ease-in-out;
+}
+
+.front-image{
+    width: 100%;
+    height: 100%;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.card .back {
+    background-image: var(--card-back-image);
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "image": "/assets/Traitor/Alpharius_Omegon.png",
+        "name": "Alpharius Omegon",
+        "legion": "Alpha Legion"
+    },
+    {
+        "image": "/assets/Traitor/Angron.png",
+        "name": "Angron",
+        "legion": "World Eaters"
+    },
+    {
+        "image": "/assets/Traitor/Fulgrim.png",
+        "name": "Fulgrim",
+        "legion": "Emperor's Children"
+    },
+    {
+        "image": "/assets/Traitor/Horus.png",
+        "name": "Horus",
+        "legion": "Luna Wolves / Sons of Horus"
+    },
+    {
+        "image": "/assets/Traitor/Konrad_Curze.png",
+        "name": "Konrad Curze",
+        "legion": "Night Lords"
+    },
+    {
+        "image": "/assets/Traitor/Lorgar.png",
+        "name": "Lorgar",
+        "legion": "Word Bearers"
+    },
+    {
+        "image": "/assets/Traitor/Magnus_The_Red.png",
+        "name": "Magnus The Red",
+        "legion": "Thousand Sons"
+    },
+    {
+        "image": "/assets/Traitor/Mortarion.png",
+        "name": "Mortarion",
+        "legion": "Death Guard"
+    },
+    {
+        "image": "/assets/Traitor/Perturabo.png",
+        "name": "Perturabo",
+        "legion": "Iron Warriors"
+    }
+]

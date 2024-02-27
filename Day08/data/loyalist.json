@@ -1,0 +1,47 @@
+[
+    {
+        "image": "/assets/Loyalist/Corvus_Corax.png",
+        "name": "Corvus Corax",
+        "legion": "Raven Guard"
+    },
+    {
+        "image": "/assets/Loyalist/Jaghatai_Khan.png",
+        "name": "Jaghatai Khan",
+        "legion": "White Scars"
+    },
+    {
+        "image": "/assets/Loyalist/Ferrus_Manus.png",
+        "name": "Ferrus Manus",
+        "legion": "Iron Hands"
+    },
+    {
+        "image": "/assets/Loyalist/Leman_Russ.png",
+        "name": "Leman Russ",
+        "legion": "Space Wolves"
+    },
+    {
+        "image": "/assets/Loyalist/Lion_El'Johnson.png",
+        "name": "Lion El'Johnson",
+        "legion": "Dark Angels"
+    },
+    {
+        "image": "/assets/Loyalist/Roboute_Guilliman.png",
+        "name": "Roboute Guilliman",
+        "legion": "Ultramarines"
+    },
+    {
+        "image": "/assets/Loyalist/Rogal_Dorn.png",
+        "name": "Rogal Dorn",
+        "legion": "Imperial Fists"
+    },
+    {
+        "image": "/assets/Loyalist/Sanguinius.png",
+        "name": "Sanguinius",
+        "legion": "Blood Angels"
+    },
+    {
+        "image": "/assets/Loyalist/Vulkan.png",
+        "name": "Vulkan",
+        "legion": "Salamanders"
+        }
+]

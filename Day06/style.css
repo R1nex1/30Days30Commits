@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap');
+
+
+:root {
+    --fw-reg: 250;
+    --fw-mid: 400;
+    --fw-bold: 550;
+
+    --clr-light: #ffffff;
+    --clr-dark: #518fd1;
+    --clr-accent: #8BB7E5;
+    --clr-green: #6fcca4;
+    --clr-grey: #676666;
+    --clr-black: #201f1f;
+
+    --fs-h1: 4.5rem;
+    --fs-h2: 3rem;
+    --fs-body: 1.2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--clr-black);
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(140deg, var(--clr-dark), var(--clr-green));
+    color: var(--clr-light);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 45px 40px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: var(--clr-light);
+    color: var(--clr-grey);
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: var(--fs-body);
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: var(--clr-light);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.search button img{
+    width: 18px;
+}
+
+.search button:hover{
+    scale: 1.2;
+}
+
+.weather-icon{
+    width: 180px;
+    margin-top: 35px;
+}
+
+.weather{
+    display: none;
+}
+
+.weather h1{
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+}
+
+.weather h2{
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-mid);
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-top: 55px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 45px;
+    margin-right: 12px;
+}
+
+.humidity, .wind{
+    font-size: var(--fs-body);
+    margin-top: -5px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 16px;
+    font-size: var(--fs-body);
+    margin-top: 12px;
+    display: none;
+}
