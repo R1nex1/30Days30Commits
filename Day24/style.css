@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --fs-p: 1rem;
+
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-white-2: #807676;
+    --clr-white-3: #cccccc;
+    --clr-gray: #333333;
+    --clr-bg: #2379cf;
+    --clr-red: #e40404;
+    --clr-red-bg: #ff00003e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.finance-tracker {
+    border-collapse: collapse;
+    min-width: 1500px;
+}
+
+.finance-tracker th {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 2px solid var(--clr-bg);
+}
+
+.finance-tracker td {
+    padding: 5px;
+}
+
+.field,
+.remove-entry {
+    height: 30px;
+    font-size: var(--fs-p);
+    padding: 0 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.field {
+    border: 1px solid var(--clr-white-3);
+    border-radius: var(--border-radius-1);
+    outline: none;
+}
+
+.field:focus {
+    border-color: var(--clr-white-2);
+}
+
+.remove-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    background: none;
+    color: var(--clr-red);
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.remove-entry:hover {
+    background: var(--clr-red-bg);
+}
+
+.action-controls,
+.total-summary {
+    text-align: right;
+}
