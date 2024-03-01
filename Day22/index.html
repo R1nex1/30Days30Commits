@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatter</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="option-selector">
+    <button class="btn option-btn is-active" id="kadi-select">Kadi</button>
+    <button class="btn option-btn" id="mati-select">Mati</button>
+    </div>
+    <div class="conversation-container">
+    <h2 class="conversation-header">Kadi chatting...</h2>
+    <div class="messages-container">
+        <div class="chat-message message-blue">
+        <div class="sender-name">Kadi</div>
+        <div class="text-content">Hey Mati, how are you?</div>
+        <div class="time-stamp">11:11 AM</div>
+        </div>
+        <div class="chat-message message-gray">
+        <div class="sender-name">Mati</div>
+        <div class="text-content">Just chillin. HBU?</div>
+        <div class="time-stamp">11:20 AM</div>
+        </div>
+    </div>
+    <form class="input-form">
+        <input type="text" class="input-field" required placeholder="Type here, Kadi..." />
+        <button type="submit" class="btn send-btn">Send</button>
+    </form>
+    <button class="btn clear-conversation-btn">Clear Chat</button>
+    </div>
+</body>
+</html>
