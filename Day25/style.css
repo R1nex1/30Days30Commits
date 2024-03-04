@@ -1,0 +1,23 @@
+html {
+    cursor: url('./img/cursor.png'), auto;
+}
+
+body {
+    background-image: linear-gradient(
+    45deg,
+    #e1c33e 0%,
+    #ec774d 3%,
+    #a50a58 14%,
+    #1b034f 50%,
+    #033a7a 88%,
+    #03678f 98%,
+    #10939a 100%
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 60px;
+    user-select: none;
+}
