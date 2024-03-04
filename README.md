@@ -24,8 +24,8 @@
 22. **Day 22: Chat Application** - Build a basic chat application interface.
 23. **Day 23: Recipe Finder** - Create an app that finds recipes based on ingredients using an API.
 24. **Day 24: Expense Tracker** - Develop an expense tracker where users can add and categorize expenses.
-25. **Day 25: Portfolio with Filtering** - Create a portfolio page with filtering options for different project types.
-26. **Day 26: Tetris Game** - Build a simple Tetris game using JavaScript.
+25. **Day 25: Custom Cursor** - Create a custom cursor.
+26. **Day 26: Alarm clock** - Create an alarm clock. 
 27. **Day 27: Social Media Dashboard** - Design a dashboard for social media analytics.
 28. **Day 28: Custom Video Player** - Implement a custom video player with custom controls.
 29. **Day 29: Real-time Chat Room** - Create a real-time chat room using WebSockets.
