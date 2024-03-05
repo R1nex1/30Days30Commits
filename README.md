@@ -26,8 +26,8 @@
 24. **Day 24: Expense Tracker** - Develop an expense tracker where users can add and categorize expenses.
 25. **Day 25: Custom Cursor** - Create a custom cursor.
 26. **Day 26: Alarm clock** - Create an alarm clock. 
-27. **Day 27: Social Media Dashboard** - Design a dashboard for social media analytics.
-28. **Day 28: Custom Video Player** - Implement a custom video player with custom controls.
+27. **Day 27: Analog clock** - Implement a analog clock showing the current time.
+28. **Day 28: CSS animation** - Implement a simple CSS animation.
 29. **Day 29: Real-time Chat Room** - Create a real-time chat room using WebSockets.
 30. **Day 30: Personal Blog with CMS** - Build a personal blog that uses a Content Management System (CMS) for posts.
 

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --fs-h1: 2.5rem;
+
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-blue: #2f2ccd;
+    --clr-blue-1: #051532;
+    --clr-blue-2: #370511;
+    --clr-blue-3: #181876;
+    --clr-neon-green: #06eb56;
+    --clr-neon-red: #d60940;
+
+    --border-radius-1: 1.875rem;
+    --border-radius-round: 50%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, var(--clr-blue-1), var(--clr-blue-2));
+}
+
+.clock {
+    width: 550px;
+    height: 550px;
+    position: relative;
+    background: radial-gradient(circle, var(--clr-blue-3), var(--clr-blue-2));
+    border-radius: var(--border-radius-round);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock::before {
+    content: "";
+    width: 575px;
+    height: 575px;
+    position: absolute;
+    border-radius: var(--border-radius-round);
+    background: linear-gradient(90deg, var(--clr-neon-green), var(--clr-neon-red));
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.hour {
+    transform: rotate(calc(30deg * var(--hour)));
+    position: absolute;
+    text-align: center;
+    inset: 20px;
+    font-size: var(--fs-h1);
+    color: var(--clr-neon-green);
+    text-shadow: 0 0 12px var(--clr-neon-red);
+}
+
+.hour b {
+    transform: rotate(calc(-30deg * var(--hour)));
+    display: inline-block;
+}
+
+.center {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--clr-neon-red);
+    border: 6px solid var(--clr-neon-green);
+    border-radius: var(--border-radius-round);
+}
+
+.hour-hand, .minute-hand, .second-hand {
+    --rotate: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%) rotate(calc(var(--rotate) * 1deg));
+    transform-origin: bottom;
+    background: linear-gradient(var(--clr-neon-green), var(--clr-neon-red));
+    border-radius: var(--border-radius-1) var(--border-radius-1) 0 0;
+}
+
+.hour-hand {
+    width: 12px;
+    height: 130px;
+    background: linear-gradient(0deg, var(--clr-neon-green), var(--clr-neon-red));
+}
+
+.minute-hand {
+    width: 12px;
+    height: 190px;
+}
+
+.second-hand {
+    width: 6px;
+    height: 210px;
+}
