@@ -27,8 +27,8 @@
 25. **Day 25: Custom Cursor** - Create a custom cursor.
 26. **Day 26: Alarm clock** - Create an alarm clock. 
 27. **Day 27: Analog clock** - Implement a analog clock showing the current time.
-28. **Day 28: CSS animation** - Implement a simple CSS animation.
-29. **Day 29: Real-time Chat Room** - Create a real-time chat room using WebSockets.
+28. **Day 28: Loading spinner** - Implement a simple CSS animation for loading spinners.
+29. **Day 29: Tic Tac Toe** - Build a simple game of Tic Tac Toe.
 30. **Day 30: Personal Blog with CMS** - Build a personal blog that uses a Content Management System (CMS) for posts.
 
 Inspired by:
