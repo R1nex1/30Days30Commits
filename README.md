@@ -28,8 +28,8 @@
 26. **Day 26: Alarm clock** - Create an alarm clock. 
 27. **Day 27: Analog clock** - Implement a analog clock showing the current time.
 28. **Day 28: Loading spinner** - Implement a simple CSS animation for loading spinners.
-29. **Day 29: Tic Tac Toe** - Build a simple game of Tic Tac Toe.
-30. **Day 30: Personal Blog with CMS** - Build a personal blog that uses a Content Management System (CMS) for posts.
+29. **Day 29: Floating head animation** - Implement a simple CSS animation for a floating avatar head.
+30. **Day 30: Login form** - Create a basic login form using HTML and CSS.
 
 Inspired by:
 https://github.com/ShaifArfan/30days30submits
